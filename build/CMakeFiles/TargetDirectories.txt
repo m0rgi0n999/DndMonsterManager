@@ -1,0 +1,5 @@
+/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/DndMonsterManager.dir
+/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/edit_cache.dir
+/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/DndMonsterManager_autogen_timestamp_deps.dir
+/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/DndMonsterManager_autogen.dir

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+9d278f1787a186e7e2942efb7b3712b8 CMakeFiles/DndMonsterManager_autogen
+ab04f52672b2471983b36b508106b8d9 DndMonsterManager_autogen/timestamp
