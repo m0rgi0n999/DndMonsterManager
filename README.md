@@ -94,36 +94,36 @@ The application follows a **Model-View-Controller (MVC)** pattern with the follo
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        MainWindow (View)                       │
+│                        MainWindow (View)                    │
 │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────┐  │
-│  │   QLineEdit     │  │   QListWidget    │  │ QPushButton  │  │
-│  │   (Stat Inputs) │  │ (Monster List)   │  │ (Actions)    │  │
+│  │  QLineEdit      │  │   QListWidget   │  │ QPushButton │  │
+│  │  (Stat Inputs)  │  │ (Monster List   │  │ (Actions)   │  │
 │  └─────────────────┘  └─────────────────┘  └─────────────┘  │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                     MonsterManager (Controller)                │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────┐  │
-│  │   saveMonster()  │  │  loadAll()       │  │ deleteMonster()│ │
-│  │   findMonster()  │  │  updateMonster() │  │              │  │
-│  └─────────────────┘  └─────────────────┘  └─────────────┘  │
+│                  MonsterManager (Controller)                │
+│ ┌────────────────┐ ┌─────────────────┐ ┌─────────────────┐  │
+│ │ saveMonster()  │ │ loadAll()       │ │ deleteMonster() │  │
+│ │ findMonster()  │ │ updateMonster() │ │                 │  │
+│ └────────────────┘ └─────────────────┘ └─────────────────┘  │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                        Monster (Model)                         │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────────┐ │
-│  │  Attributes  │  │  Methods     │  │   Serialization          │ │
-│  │  (str, dex, │  │  (getStat,   │  │   (to_json, from_json)   │ │
-│  │   etc.)     │  │   getMod)    │  │                         │ │
-│  └─────────────┘  └─────────────┘  └─────────────────────────┘ │
+│                        Monster (Model)                      │
+│  ┌────────────┐  ┌────────────┐  ┌────────────────────────┐ │
+│  │ Attributes │  │  Methods   │  │ Serialization          │ │
+│  │ (str, dex, │  │  (getStat, │  │ (to_json, from_json)   │ │
+│  │  etc.)     │  │   getMod)  │  │                        │ │
+│  └────────────┘  └────────────┘  └────────────────────────┘ │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                   JSON Files (Data Storage)                    │
-│  data/monsters/*.json                                          │
+│                JSON Files (Data Storage)                    │
+│  data/monsters/*.json                                       │
 └─────────────────────────────────────────────────────────────┘
 ```
 
