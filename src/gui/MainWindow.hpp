@@ -1,3 +1,4 @@
+// MainWindow.hpp
 #pragma once
 #include <QMainWindow>
 #include <QVBoxLayout>
