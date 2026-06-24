@@ -60,9 +60,33 @@ void MainWindow::setupUI() {
       modLabel->setText("(" + modStr + ")");
     });
   }
+  
+  abilityInput = new QLineEdit();
+  abilityInput->setPlaceholderText("Enter ability (e.g. Fly, Darkvision)...");
+  auto *addAbilityBtn = new QPushButton("Add Ability");
+
+  abilityList = new QListWidget();
+  abilityList->setMaximumHeight(100);
+  
+  formLayout->addRow("New Ability:", abilityInput);
+  formLayout->addWidget(addAbilityBtn);
+  formLayout->addRow("Abilities:", abilityList);
+
+  connect(addAbilityBtn, &QPushButton::clicked, [this]() {
+    if (!abilityInput->text().isEmpty()) {
+      abilityList->addItem(abilityInput->text());
+      abilityInput->clear();
+    }
+  });
     
   hpInput = new QLineEdit("20");
   formLayout->addRow("HP:", hpInput);
+  acInput = new QLineEdit("12");
+  formLayout->addRow("AC:", acInput);
+  passiveInput = new QLineEdit("10");
+  formLayout->addRow("Passive Perception ", passiveInput);
+  crInput = new QLineEdit("0.5");
+  formLayout->addRow("CR", crInput);
 
   // 3. Add to main layout
   monsterList = new QListWidget(this);
@@ -112,6 +136,16 @@ void MainWindow::setupUI() {
 		// Populate the UI
 		nameInput->setText(QString::fromStdString(m.name));
 		hpInput->setText(QString::number(m.hp));
+    acInput->setText(QString::number(m.ac));
+    passiveInput->setText(QString::number(m.passivePerception));
+    crInput->setText(QString::number(m.cr));
+
+    abilityList->clear();
+
+    for (const auto& ability : m.abilities) {
+      abilityList->addItem(QString::fromStdString(ability));
+    }
+
 		for (auto it = statInputs.begin(); it != statInputs.end(); ++it) {
 			int val = m.getStat(it.key().toStdString());
 			it.value()->setText(QString::number(val));
@@ -120,6 +154,11 @@ void MainWindow::setupUI() {
 }
 
 Monster MainWindow::getMonsterFromUI() {
+  std::vector<std::string> currentAbilities;
+  for(int i = 0; i < abilityList->count(); i++) {
+    currentAbilities.push_back(abilityList->item(i)->text().toStdString());
+  }
+
   return Monster{
     nameInput->text().toStdString(),
     statInputs["Strength"]->text().toInt(), // Added ()
@@ -129,7 +168,10 @@ Monster MainWindow::getMonsterFromUI() {
     statInputs["Wisdom"]->text().toInt(),
     statInputs["Charisma"]->text().toInt(),
     hpInput->text().toInt(),
-    12, 0.5, {}
+    acInput->text().toInt(),
+    passiveInput->text().toInt(),
+    crInput->text().toDouble(),
+    currentAbilities
   };
 }
 

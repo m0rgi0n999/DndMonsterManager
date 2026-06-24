@@ -1,13 +1,14 @@
 {
     "abilities": [],
-    "ac": 12,
+    "ac": 21,
     "cha": 30,
     "con": 26,
-    "cr": 0.5,
+    "cr": 21.0,
     "dex": 22,
     "hp": 243,
     "int": 25,
     "name": "Solar",
+    "passivePerception": 24,
     "str": 26,
     "wis": 25
 }

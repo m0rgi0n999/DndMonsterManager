@@ -3,11 +3,12 @@
     "ac": 12,
     "cha": 11,
     "con": 10,
-    "cr": 0.5,
+    "cr": 0.25,
     "dex": 14,
     "hp": 13,
     "int": 11,
     "name": "Aarakocra",
+    "passivePerception": 15,
     "str": 10,
     "wis": 12
 }

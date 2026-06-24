@@ -1,13 +1,16 @@
 {
-    "abilities": [],
-    "ac": 12,
+    "abilities": [
+        "Darkvisiopn 120 ft."
+    ],
+    "ac": 17,
     "cha": 18,
     "con": 15,
-    "cr": 0.5,
+    "cr": 10.0,
     "dex": 9,
     "hp": 135,
     "int": 18,
     "name": "Aboleth",
+    "passivePerception": 20,
     "str": 21,
     "wis": 15
 }

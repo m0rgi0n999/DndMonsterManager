@@ -1,13 +1,14 @@
 {
     "abilities": [],
-    "ac": 12,
+    "ac": 19,
     "cha": 25,
     "con": 24,
-    "cr": 0.5,
+    "cr": 16.0,
     "dex": 20,
     "hp": 200,
     "int": 19,
     "name": "Planetar",
+    "passivePerception": 21,
     "str": 24,
     "wis": 22
 }

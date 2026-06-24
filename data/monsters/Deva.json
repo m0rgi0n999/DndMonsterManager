@@ -1,13 +1,14 @@
 {
     "abilities": [],
-    "ac": 12,
+    "ac": 17,
     "cha": 20,
     "con": 18,
-    "cr": 0.5,
+    "cr": 10.0,
     "dex": 18,
     "hp": 136,
     "int": 17,
     "name": "Deva",
+    "passivePerception": 19,
     "str": 18,
     "wis": 20
 }

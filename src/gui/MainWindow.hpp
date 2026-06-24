@@ -20,7 +20,12 @@ private:
     QMap<QString, QLineEdit*> statInputs; 
     QMap<QString, QLabel*> modLabels; // To display "+2", "-1", etc.
     QLineEdit *nameInput;
+    QLineEdit *acInput;
+    QLineEdit *crInput;
+    QLineEdit *passiveInput;
     QLineEdit *hpInput; // You can keep HP separate if you like, or move to map
+    QListWidget *abilityList;
+    QLineEdit *abilityInput;
 
     void setupUI();
     void applyTheme();
