@@ -23,4 +23,8 @@ struct Monster {
     	if (statName == "Charisma") return charisma;
     	return 10; // Default
 	};
+
+  int getModifier(int stat) const {
+    return (stat - 10) / 2;
+  };
 };

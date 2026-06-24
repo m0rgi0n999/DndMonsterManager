@@ -1,7 +1,7 @@
-/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/MXUWEOXILK/moc_MainWindow.cpp: /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.hpp \
-  /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/moc_predefs.h \
-  /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.hpp \
-  /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/MonsterManager.hpp \
+/home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/MXUWEOXILK/moc_MainWindow.cpp: /home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.hpp \
+  /home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/moc_predefs.h \
+  /home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.hpp \
+  /home/erwin/source/source/RPG/DndMonsterManager/src/model/MonsterManager.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -433,6 +433,7 @@
   /usr/include/qt6/QtCore/qglobalstatic.h \
   /usr/include/qt6/QtCore/qhash.h \
   /usr/include/qt6/QtCore/qhashfunctions.h \
+  /usr/include/qt6/QtCore/qiodevice.h \
   /usr/include/qt6/QtCore/qiodevicebase.h \
   /usr/include/qt6/QtCore/qitemselectionmodel.h \
   /usr/include/qt6/QtCore/qiterable.h \
@@ -529,6 +530,7 @@
   /usr/include/qt6/QtGui/qpaintdevice.h \
   /usr/include/qt6/QtGui/qpalette.h \
   /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qpicture.h \
   /usr/include/qt6/QtGui/qpixelformat.h \
   /usr/include/qt6/QtGui/qpixmap.h \
   /usr/include/qt6/QtGui/qpolygon.h \
@@ -546,6 +548,7 @@
   /usr/include/qt6/QtGui/qvalidator.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
   /usr/include/qt6/QtWidgets/QFormLayout \
+  /usr/include/qt6/QtWidgets/QLabel \
   /usr/include/qt6/QtWidgets/QLayout \
   /usr/include/qt6/QtWidgets/QLineEdit \
   /usr/include/qt6/QtWidgets/QListWidget \
@@ -562,6 +565,7 @@
   /usr/include/qt6/QtWidgets/qformlayout.h \
   /usr/include/qt6/QtWidgets/qframe.h \
   /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qlabel.h \
   /usr/include/qt6/QtWidgets/qlayout.h \
   /usr/include/qt6/QtWidgets/qlayoutitem.h \
   /usr/include/qt6/QtWidgets/qlineedit.h \

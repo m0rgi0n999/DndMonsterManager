@@ -5,6 +5,7 @@
 #include <QPushButton>
 #include <QListWidget>
 #include <QMap>
+#include <QLabel>
 #include <QFormLayout> // Added this since you're using it
 #include "model/MonsterManager.hpp"
 
@@ -16,6 +17,7 @@ public:
 private:
     // Only need these two now
     QMap<QString, QLineEdit*> statInputs; 
+    QMap<QString, QLabel*> modLabels; // To display "+2", "-1", etc.
     QLineEdit *nameInput;
     QLineEdit *hpInput; // You can keep HP separate if you like, or move to map
 

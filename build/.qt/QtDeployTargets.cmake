@@ -1,2 +1,2 @@
-set(__QT_DEPLOY_TARGET_DndMonsterManager_FILE /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager)
+set(__QT_DEPLOY_TARGET_DndMonsterManager_FILE /home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager)
 set(__QT_DEPLOY_TARGET_DndMonsterManager_TYPE EXECUTABLE)

@@ -1,8 +1,8 @@
 CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: \
- /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.cpp \
+ /home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.cpp \
  /usr/include/stdc-predef.h \
- /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/MonsterManager.hpp \
- /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.hpp \
+ /home/erwin/source/source/RPG/DndMonsterManager/src/model/MonsterManager.hpp \
+ /home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.hpp \
  /usr/include/c++/15/string /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -294,7 +294,7 @@ CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/c++/15/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/15/bits/fstream.tcc \
- /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Templates.hpp \
+ /home/erwin/source/source/RPG/DndMonsterManager/src/model/Templates.hpp \
  /usr/include/qt6/QtWidgets/QListWidget \
  /usr/include/qt6/QtWidgets/qlistwidget.h \
  /usr/include/qt6/QtWidgets/qlistview.h \
@@ -454,7 +454,7 @@ CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
  /usr/include/qt6/QtWidgets/qlayout.h \
  /usr/include/qt6/QtWidgets/qgridlayout.h \
- /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.hpp \
+ /home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.hpp \
  /usr/include/qt6/QtWidgets/QMainWindow \
  /usr/include/qt6/QtWidgets/qmainwindow.h \
  /usr/include/qt6/QtWidgets/QVBoxLayout \
@@ -468,4 +468,6 @@ CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/qt6/QtWidgets/QPushButton \
  /usr/include/qt6/QtWidgets/qpushbutton.h \
  /usr/include/qt6/QtWidgets/qabstractbutton.h \
- /usr/include/qt6/QtCore/QMap /usr/include/qt6/QtCore/qmap.h
+ /usr/include/qt6/QtCore/QMap /usr/include/qt6/QtCore/qmap.h \
+ /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
+ /usr/include/qt6/QtGui/qpicture.h /usr/include/qt6/QtCore/qiodevice.h

@@ -1,8 +1,8 @@
 CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o: \
- /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp \
+ /home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/MXUWEOXILK/moc_MainWindow.cpp \
- /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/MXUWEOXILK/../../../src/gui/MainWindow.hpp \
+ /home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/MXUWEOXILK/moc_MainWindow.cpp \
+ /home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/MXUWEOXILK/../../../src/gui/MainWindow.hpp \
  /usr/include/qt6/QtWidgets/QMainWindow \
  /usr/include/qt6/QtWidgets/qmainwindow.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -400,11 +400,14 @@ CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.
  /usr/include/qt6/QtWidgets/qabstractslider.h \
  /usr/include/qt6/QtWidgets/qstyle.h /usr/include/qt6/QtWidgets/qtabbar.h \
  /usr/include/qt6/QtWidgets/qrubberband.h /usr/include/qt6/QtCore/QMap \
- /usr/include/qt6/QtCore/qmap.h /usr/include/qt6/QtWidgets/QFormLayout \
+ /usr/include/qt6/QtCore/qmap.h /usr/include/qt6/QtWidgets/QLabel \
+ /usr/include/qt6/QtWidgets/qlabel.h /usr/include/qt6/QtGui/qpicture.h \
+ /usr/include/qt6/QtCore/qiodevice.h \
+ /usr/include/qt6/QtWidgets/QFormLayout \
  /usr/include/qt6/QtWidgets/qformlayout.h \
  /usr/include/qt6/QtWidgets/QLayout /usr/include/qt6/QtWidgets/qlayout.h \
- /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/MonsterManager.hpp \
- /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.hpp \
+ /home/erwin/source/source/RPG/DndMonsterManager/src/model/MonsterManager.hpp \
+ /home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.hpp \
  /usr/include/nlohmann/json.hpp /usr/include/nlohmann/adl_serializer.hpp \
  /usr/include/nlohmann/detail/abi_macros.hpp \
  /usr/include/nlohmann/detail/conversions/from_json.hpp \
