@@ -1,3 +1,4 @@
+# CMakeLists.txt
 cmake_minimum_required(VERSION 3.16)
 project(DndMonsterManager LANGUAGES CXX)
 
@@ -12,9 +13,9 @@ find_package(nlohmann_json REQUIRED)
 
 # 1. Define the executable first
 add_executable(DndMonsterManager 
-    src/main.cpp 
-    src/model/Monster.cpp 
-    src/gui/MainWindow.cpp
+  src/main.cpp 
+  src/model/Monster.cpp 
+  src/gui/MainWindow.cpp
 )
 
 # 2. Now you can safely reference the target
