@@ -1,3 +1,4 @@
+// MainWindow.cpp
 #include "model/MonsterManager.hpp"
 #include "model/Templates.hpp"
 #include <QListWidget>
