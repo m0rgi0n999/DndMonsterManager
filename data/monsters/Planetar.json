@@ -14,17 +14,38 @@
     ],
     "cha": 25,
     "con": 24,
+    "condImmunes": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened"
+    ],
     "cr": 16.0,
     "dex": 20,
+    "dmgImmunes": [],
+    "dmgResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Radiant",
+        "Slashing"
+    ],
     "hp": 200,
     "int": 19,
+    "languages": [
+        "All",
+        "Telepathy 120 ft."
+    ],
+    "legendaryActions": [],
     "name": "Planetar",
     "passivePerception": 21,
+    "reactions": [],
     "savingThrows": {
         "Cha": 12,
         "Con": 12,
         "Wis": 11
     },
+    "senses": [
+        "Truesight 120 ft."
+    ],
     "skills": {
         "Perception": 11
     },

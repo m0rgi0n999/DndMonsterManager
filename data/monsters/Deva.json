@@ -13,16 +13,37 @@
     ],
     "cha": 20,
     "con": 18,
+    "condImmunes": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened"
+    ],
     "cr": 10.0,
     "dex": 18,
+    "dmgImmunes": [],
+    "dmgResistances": [
+        "Radiant",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing"
+    ],
     "hp": 136,
     "int": 17,
+    "languages": [
+        "All",
+        "Telepathy 120 ft."
+    ],
+    "legendaryActions": [],
     "name": "Deva",
     "passivePerception": 19,
+    "reactions": [],
     "savingThrows": {
         "Cha": 9,
         "Wis": 9
     },
+    "senses": [
+        "Darkvision 120 ft."
+    ],
     "skills": {
         "Insight": 9,
         "Perception": 9

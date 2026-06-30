@@ -557,13 +557,17 @@ DndMonsterManager_autogen/timestamp: /mnt/e/git/RPG/DnD_5e/DndMonsterManager/CMa
   /usr/include/qt6/QtGui/qtransform.h \
   /usr/include/qt6/QtGui/qvalidator.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
+  /usr/include/qt6/QtWidgets/QCheckBox \
   /usr/include/qt6/QtWidgets/QFormLayout \
+  /usr/include/qt6/QtWidgets/QGroupBox \
+  /usr/include/qt6/QtWidgets/QHBoxLayout \
   /usr/include/qt6/QtWidgets/QLabel \
   /usr/include/qt6/QtWidgets/QLayout \
   /usr/include/qt6/QtWidgets/QLineEdit \
   /usr/include/qt6/QtWidgets/QListWidget \
   /usr/include/qt6/QtWidgets/QMainWindow \
   /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QTabWidget \
   /usr/include/qt6/QtWidgets/QTableWidget \
   /usr/include/qt6/QtWidgets/QVBoxLayout \
   /usr/include/qt6/QtWidgets/qabstractbutton.h \
@@ -573,9 +577,11 @@ DndMonsterManager_autogen/timestamp: /mnt/e/git/RPG/DnD_5e/DndMonsterManager/CMa
   /usr/include/qt6/QtWidgets/qabstractslider.h \
   /usr/include/qt6/QtWidgets/qabstractspinbox.h \
   /usr/include/qt6/QtWidgets/qboxlayout.h \
+  /usr/include/qt6/QtWidgets/qcheckbox.h \
   /usr/include/qt6/QtWidgets/qformlayout.h \
   /usr/include/qt6/QtWidgets/qframe.h \
   /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qgroupbox.h \
   /usr/include/qt6/QtWidgets/qlabel.h \
   /usr/include/qt6/QtWidgets/qlayout.h \
   /usr/include/qt6/QtWidgets/qlayoutitem.h \
@@ -1478,9 +1484,13 @@ DndMonsterManager_autogen/timestamp: /mnt/e/git/RPG/DnD_5e/DndMonsterManager/CMa
 
 /usr/include/qt6/QtWidgets/qlabel.h:
 
+/usr/include/qt6/QtWidgets/qgroupbox.h:
+
 /usr/include/qt6/QtWidgets/qgridlayout.h:
 
 /usr/include/qt6/QtWidgets/qformlayout.h:
+
+/usr/include/qt6/QtWidgets/qcheckbox.h:
 
 /usr/include/qt6/QtWidgets/qboxlayout.h:
 
@@ -1496,6 +1506,8 @@ DndMonsterManager_autogen/timestamp: /mnt/e/git/RPG/DnD_5e/DndMonsterManager/CMa
 
 /usr/include/qt6/QtWidgets/QTableWidget:
 
+/usr/include/qt6/QtWidgets/QTabWidget:
+
 /usr/lib64/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/include/qt6/QtWidgets/QMainWindow:
@@ -1507,6 +1519,12 @@ DndMonsterManager_autogen/timestamp: /mnt/e/git/RPG/DnD_5e/DndMonsterManager/CMa
 /usr/include/qt6/QtWidgets/QListWidget:
 
 /usr/include/qt6/QtWidgets/QLayout:
+
+/usr/include/qt6/QtWidgets/QHBoxLayout:
+
+/usr/include/qt6/QtWidgets/QGroupBox:
+
+/usr/include/qt6/QtWidgets/QCheckBox:
 
 /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
 

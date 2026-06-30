@@ -1,6 +1,5 @@
 {
     "abilities": [
-        "Darkvision 120 ft.",
         "Amphibious",
         "Mucus Cloud",
         "Probing Telepathy"
@@ -10,21 +9,37 @@
         "Multiattack",
         "Tentacle",
         "Tail",
-        "Enslave (3/Day)"
+        "Enslave(3/Day)"
     ],
     "cha": 18,
     "con": 15,
+    "condImmunes": [],
     "cr": 10.0,
     "dex": 9,
+    "dmgImmunes": [],
+    "dmgResistances": [],
     "hp": 135,
     "int": 18,
+    "languages": [
+        "Deep Speech",
+        "Telepathy 120 ft."
+    ],
+    "legendaryActions": [
+        "Detect",
+        "Tail Swipe",
+        "Psychic Drain (Costs 2 Actions)"
+    ],
     "name": "Aboleth",
     "passivePerception": 20,
+    "reactions": [],
     "savingThrows": {
         "Con": 6,
         "Int": 8,
         "Wis": 6
     },
+    "senses": [
+        "Darkvision 120 ft."
+    ],
     "skills": {
         "History": 12,
         "Perception": 10

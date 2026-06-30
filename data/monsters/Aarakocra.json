@@ -9,13 +9,23 @@
     ],
     "cha": 11,
     "con": 10,
+    "condImmunes": [],
     "cr": 0.25,
     "dex": 14,
+    "dmgImmunes": [],
+    "dmgResistances": [],
     "hp": 13,
     "int": 11,
+    "languages": [
+        "Aarakocran",
+        "Auran"
+    ],
+    "legendaryActions": [],
     "name": "Aarakocra",
     "passivePerception": 15,
+    "reactions": [],
     "savingThrows": {},
+    "senses": [],
     "skills": {
         "Perception": 5
     },

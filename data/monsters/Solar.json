@@ -1,6 +1,5 @@
 {
     "abilities": [
-        "Truesight 120 ft.",
         "Angelic Weapons",
         "Divine Awareness",
         "Innate Spellcasting",
@@ -16,17 +15,46 @@
     ],
     "cha": 30,
     "con": 26,
+    "condImmunes": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Poisoned"
+    ],
     "cr": 21.0,
     "dex": 22,
+    "dmgImmunes": [
+        "Necrotic",
+        "Poison"
+    ],
+    "dmgResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Radiant",
+        "Slashing"
+    ],
     "hp": 243,
     "int": 25,
+    "languages": [
+        "All",
+        "Telepathy 120 ft."
+    ],
+    "legendaryActions": [
+        "Teleport",
+        "Searing Burst (Costs 2 Actions)",
+        "Blinding Gaze (Costs 3 Actions)"
+    ],
     "name": "Solar",
     "passivePerception": 24,
+    "reactions": [],
     "savingThrows": {
         "Cha": 17,
         "Int": 14,
         "Wis": 14
     },
+    "senses": [
+        "Truesight 120 ft."
+    ],
     "skills": {
         "Perception": 14
     },

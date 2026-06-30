@@ -418,6 +418,13 @@ CMakeFiles/DndMonsterManager.dir/src/main.cpp.o: \
  /usr/include/qt6/QtWidgets/QTableWidget \
  /usr/include/qt6/QtWidgets/qtablewidget.h \
  /usr/include/qt6/QtWidgets/qtableview.h \
+ /usr/include/qt6/QtWidgets/QTabWidget \
+ /usr/include/qt6/QtWidgets/qtabwidget.h \
+ /usr/include/qt6/QtWidgets/QHBoxLayout \
+ /usr/include/qt6/QtWidgets/QCheckBox \
+ /usr/include/qt6/QtWidgets/qcheckbox.h \
+ /usr/include/qt6/QtWidgets/QGroupBox \
+ /usr/include/qt6/QtWidgets/qgroupbox.h \
  /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/MonsterManager.hpp \
  /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.hpp \
  /usr/include/nlohmann/json.hpp /usr/include/nlohmann/adl_serializer.hpp \

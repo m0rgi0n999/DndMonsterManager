@@ -554,13 +554,17 @@
  mdp:/usr/include/qt6/QtGui/qtransform.h
  mdp:/usr/include/qt6/QtGui/qvalidator.h
  mdp:/usr/include/qt6/QtGui/qwindowdefs.h
+ mdp:/usr/include/qt6/QtWidgets/QCheckBox
  mdp:/usr/include/qt6/QtWidgets/QFormLayout
+ mdp:/usr/include/qt6/QtWidgets/QGroupBox
+ mdp:/usr/include/qt6/QtWidgets/QHBoxLayout
  mdp:/usr/include/qt6/QtWidgets/QLabel
  mdp:/usr/include/qt6/QtWidgets/QLayout
  mdp:/usr/include/qt6/QtWidgets/QLineEdit
  mdp:/usr/include/qt6/QtWidgets/QListWidget
  mdp:/usr/include/qt6/QtWidgets/QMainWindow
  mdp:/usr/include/qt6/QtWidgets/QPushButton
+ mdp:/usr/include/qt6/QtWidgets/QTabWidget
  mdp:/usr/include/qt6/QtWidgets/QTableWidget
  mdp:/usr/include/qt6/QtWidgets/QVBoxLayout
  mdp:/usr/include/qt6/QtWidgets/qabstractbutton.h
@@ -570,9 +574,11 @@
  mdp:/usr/include/qt6/QtWidgets/qabstractslider.h
  mdp:/usr/include/qt6/QtWidgets/qabstractspinbox.h
  mdp:/usr/include/qt6/QtWidgets/qboxlayout.h
+ mdp:/usr/include/qt6/QtWidgets/qcheckbox.h
  mdp:/usr/include/qt6/QtWidgets/qformlayout.h
  mdp:/usr/include/qt6/QtWidgets/qframe.h
  mdp:/usr/include/qt6/QtWidgets/qgridlayout.h
+ mdp:/usr/include/qt6/QtWidgets/qgroupbox.h
  mdp:/usr/include/qt6/QtWidgets/qlabel.h
  mdp:/usr/include/qt6/QtWidgets/qlayout.h
  mdp:/usr/include/qt6/QtWidgets/qlayoutitem.h
