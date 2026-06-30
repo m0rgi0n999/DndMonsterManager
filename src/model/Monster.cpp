@@ -18,7 +18,7 @@ nlohmann::json Monster::to_json() const {
 	{"actions", actions},
 	{"savingThrows", savingThrows},
 	{"skills", skills},
-	{"legendayActions", legendaryActions},
+	{"legendaryActions", legendaryActions},
 	{"reactions", reactions}
   };
 }

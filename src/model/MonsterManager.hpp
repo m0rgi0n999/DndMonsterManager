@@ -18,7 +18,7 @@ public:
 
 	void deleteMonster(const std::string& name) {
     std::filesystem::path filePath = storageDir / (name + ".json");
-        
+
     // Simply delete the file from the disk
     if (std::filesystem::exists(filePath)) {
       std::filesystem::remove(filePath);
