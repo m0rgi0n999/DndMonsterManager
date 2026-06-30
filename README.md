@@ -1,5 +1,3 @@
-Here's an updated **README.md** file for your DndMonsterManager repository that reflects the current state of the codebase:
-
 ---
 
 # DndMonsterManager
