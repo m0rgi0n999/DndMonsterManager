@@ -1,6 +1,12 @@
 {
-    "abilities": [],
+    "abilities": [
+        "Dive Attack"
+    ],
     "ac": 12,
+    "actions": [
+        "Talon",
+        "Javelin"
+    ],
     "cha": 11,
     "con": 10,
     "cr": 0.25,
@@ -9,6 +15,10 @@
     "int": 11,
     "name": "Aarakocra",
     "passivePerception": 15,
+    "savingThrows": {},
+    "skills": {
+        "Perception": 5
+    },
     "str": 10,
     "wis": 12
 }

@@ -1,8 +1,8 @@
 CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: \
- /home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.cpp \
+ /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.cpp \
  /usr/include/stdc-predef.h \
- /home/erwin/source/source/RPG/DndMonsterManager/src/model/MonsterManager.hpp \
- /home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.hpp \
+ /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/MonsterManager.hpp \
+ /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.hpp \
  /usr/include/c++/15/string /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -105,7 +105,13 @@ CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/c++/15/bits/stl_uninitialized.h \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc /usr/include/nlohmann/json.hpp \
+ /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/map \
+ /usr/include/c++/15/bits/stl_tree.h \
+ /usr/include/c++/15/ext/aligned_buffer.h \
+ /usr/include/c++/15/bits/node_handle.h \
+ /usr/include/c++/15/bits/stl_map.h \
+ /usr/include/c++/15/bits/stl_multimap.h \
+ /usr/include/c++/15/bits/erase_if.h /usr/include/nlohmann/json.hpp \
  /usr/include/c++/15/algorithm /usr/include/c++/15/bits/stl_algo.h \
  /usr/include/c++/15/bits/algorithmfwd.h \
  /usr/include/c++/15/bits/stl_heap.h \
@@ -120,11 +126,9 @@ CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/c++/15/bits/unordered_map.h \
  /usr/include/c++/15/bits/hashtable.h \
  /usr/include/c++/15/bits/hashtable_policy.h \
- /usr/include/c++/15/ext/aligned_buffer.h \
  /usr/include/c++/15/bits/enable_special_members.h \
- /usr/include/c++/15/bits/node_handle.h \
- /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/array \
- /usr/include/c++/15/iterator /usr/include/c++/15/bits/stream_iterator.h \
+ /usr/include/c++/15/array /usr/include/c++/15/iterator \
+ /usr/include/c++/15/bits/stream_iterator.h \
  /usr/include/c++/15/bits/streambuf_iterator.h \
  /usr/include/c++/15/streambuf /usr/include/c++/15/bits/ios_base.h \
  /usr/include/c++/15/ext/atomicity.h \
@@ -196,9 +200,7 @@ CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/nlohmann/detail/abi_macros.hpp \
  /usr/include/nlohmann/detail/conversions/from_json.hpp \
  /usr/include/c++/15/forward_list /usr/include/c++/15/bits/forward_list.h \
- /usr/include/c++/15/bits/forward_list.tcc /usr/include/c++/15/map \
- /usr/include/c++/15/bits/stl_tree.h /usr/include/c++/15/bits/stl_map.h \
- /usr/include/c++/15/bits/stl_multimap.h /usr/include/c++/15/valarray \
+ /usr/include/c++/15/bits/forward_list.tcc /usr/include/c++/15/valarray \
  /usr/include/c++/15/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
@@ -294,7 +296,7 @@ CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/c++/15/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/15/bits/fstream.tcc \
- /home/erwin/source/source/RPG/DndMonsterManager/src/model/Templates.hpp \
+ /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Templates.hpp \
  /usr/include/qt6/QtWidgets/QListWidget \
  /usr/include/qt6/QtWidgets/qlistwidget.h \
  /usr/include/qt6/QtWidgets/qlistview.h \
@@ -454,7 +456,14 @@ CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
  /usr/include/qt6/QtWidgets/qlayout.h \
  /usr/include/qt6/QtWidgets/qgridlayout.h \
- /home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.hpp \
+ /usr/include/qt6/QtWidgets/QTableWidget \
+ /usr/include/qt6/QtWidgets/qtablewidget.h \
+ /usr/include/qt6/QtWidgets/qtableview.h \
+ /usr/include/qt6/QtWidgets/QSpinBox \
+ /usr/include/qt6/QtWidgets/qspinbox.h \
+ /usr/include/qt6/QtWidgets/QHeaderView \
+ /usr/include/qt6/QtWidgets/qheaderview.h \
+ /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.hpp \
  /usr/include/qt6/QtWidgets/QMainWindow \
  /usr/include/qt6/QtWidgets/qmainwindow.h \
  /usr/include/qt6/QtWidgets/QVBoxLayout \

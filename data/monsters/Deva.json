@@ -1,6 +1,16 @@
 {
-    "abilities": [],
+    "abilities": [
+        "Angelic Weapons",
+        "Innate Spellcasting",
+        "Magic Resistance"
+    ],
     "ac": 17,
+    "actions": [
+        "Multiattack",
+        "Mace",
+        "Healing Touch (3/Day)",
+        "Chage Shape"
+    ],
     "cha": 20,
     "con": 18,
     "cr": 10.0,
@@ -9,6 +19,14 @@
     "int": 17,
     "name": "Deva",
     "passivePerception": 19,
+    "savingThrows": {
+        "Cha": 9,
+        "Wis": 9
+    },
+    "skills": {
+        "Insight": 9,
+        "Perception": 9
+    },
     "str": 18,
     "wis": 20
 }

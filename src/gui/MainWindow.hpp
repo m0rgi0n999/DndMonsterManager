@@ -8,6 +8,7 @@
 #include <QMap>
 #include <QLabel>
 #include <QFormLayout> // Added this since you're using it
+#include <QTableWidget>
 #include "model/MonsterManager.hpp"
 
 class MainWindow : public QMainWindow {
@@ -26,6 +27,14 @@ private:
     QLineEdit *hpInput; // You can keep HP separate if you like, or move to map
     QListWidget *abilityList;
     QLineEdit *abilityInput;
+	QListWidget *actionList;
+	QLineEdit *actionInput;
+	QTableWidget *skillTable;
+	QTableWidget *savingThrowTable;
+	QListWidget *legendaryActionList;
+	QLineEdit *legendaryActionInput;
+	QListWidget *reactionList;
+	QLineEdit *reactionInput;
 
     void setupUI();
     void applyTheme();

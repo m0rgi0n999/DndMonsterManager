@@ -1,7 +1,7 @@
-/home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/MXUWEOXILK/moc_MainWindow.cpp: /home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.hpp \
-  /home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/moc_predefs.h \
-  /home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.hpp \
-  /home/erwin/source/source/RPG/DndMonsterManager/src/model/MonsterManager.hpp \
+/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/MXUWEOXILK/moc_MainWindow.cpp: /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.hpp \
+  /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/moc_predefs.h \
+  /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.hpp \
+  /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/MonsterManager.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -554,6 +554,7 @@
   /usr/include/qt6/QtWidgets/QListWidget \
   /usr/include/qt6/QtWidgets/QMainWindow \
   /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QTableWidget \
   /usr/include/qt6/QtWidgets/QVBoxLayout \
   /usr/include/qt6/QtWidgets/qabstractbutton.h \
   /usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
@@ -579,6 +580,8 @@
   /usr/include/qt6/QtWidgets/qstyle.h \
   /usr/include/qt6/QtWidgets/qstyleoption.h \
   /usr/include/qt6/QtWidgets/qtabbar.h \
+  /usr/include/qt6/QtWidgets/qtableview.h \
+  /usr/include/qt6/QtWidgets/qtablewidget.h \
   /usr/include/qt6/QtWidgets/qtabwidget.h \
   /usr/include/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/qt6/QtWidgets/qtwidgetsexports.h \

@@ -1,6 +1,19 @@
 {
-    "abilities": [],
+    "abilities": [
+        "Truesight 120 ft.",
+        "Angelic Weapons",
+        "Divine Awareness",
+        "Innate Spellcasting",
+        "Magic Resistance"
+    ],
     "ac": 21,
+    "actions": [
+        "Multiattack",
+        "Greatsword",
+        "Slaying Longbow",
+        "Flying Sword",
+        "Healing Touch (4/Day)"
+    ],
     "cha": 30,
     "con": 26,
     "cr": 21.0,
@@ -9,6 +22,14 @@
     "int": 25,
     "name": "Solar",
     "passivePerception": 24,
+    "savingThrows": {
+        "Cha": 17,
+        "Int": 14,
+        "Wis": 14
+    },
+    "skills": {
+        "Perception": 14
+    },
     "str": 26,
     "wis": 25
 }

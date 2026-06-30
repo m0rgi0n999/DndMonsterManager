@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen",
-	"CMAKE_BINARY_DIR" : "/home/erwin/source/source/RPG/DndMonsterManager/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/erwin/source/source/RPG/DndMonsterManager/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/erwin/source/source/RPG/DndMonsterManager",
+	"BUILD_DIR" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen",
+	"CMAKE_BINARY_DIR" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/erwin/source/source/RPG/DndMonsterManager/CMakeLists.txt",
+		"/mnt/e/git/RPG/DnD_5e/DndMonsterManager/CMakeLists.txt",
 		"/usr/share/cmake/Modules/CMakeDetermineSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeSystem.cmake.in",
-		"/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles/3.31.11/CMakeSystem.cmake",
+		"/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/3.31.10/CMakeSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeUnixFindMake.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake",
@@ -63,7 +63,7 @@
 		"/usr/share/cmake/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles/3.31.11/CMakeCXXCompiler.cmake",
+		"/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/3.31.10/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -89,7 +89,7 @@
 		"/usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/usr/share/cmake/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles/3.31.11/CMakeCXXCompiler.cmake",
+		"/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/3.31.10/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"/usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/usr/share/cmake/Modules/Linker/GNU-CXX.cmake",
@@ -493,28 +493,28 @@
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/erwin/source/source/RPG/DndMonsterManager",
+	"CMAKE_SOURCE_DIR" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/deps",
+	"DEP_FILE" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "DndMonsterManager_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.hpp",
+			"/mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.hpp",
 			"Mu",
 			"MXUWEOXILK/moc_MainWindow.cpp",
 			null
 		],
 		[
-			"/home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.hpp",
+			"/mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.hpp",
 			"Mu",
 			"VNQA4LF4BW/moc_Monster.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/include",
+	"MOC_COMPILATION_FILE" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -525,7 +525,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/erwin/source/source/RPG/DndMonsterManager/src",
+		"/mnt/e/git/RPG/DnD_5e/DndMonsterManager/src",
 		"/usr/include/qt6/QtWidgets",
 		"/usr/include/qt6",
 		"/usr/include/qt6/QtCore",
@@ -551,38 +551,34 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/usr/sbin/c++",
 		"-std=gnu++20",
 		"-w",
 		"-dM",
 		"-E",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles/DndMonsterManager_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/DndMonsterManager_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib64/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles/DndMonsterManager_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/DndMonsterManager_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.cpp",
+			"/mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.cpp",
 			"Mu",
 			null
 		],
+		[ "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/main.cpp", "Mu", null ],
 		[
-			"/home/erwin/source/source/RPG/DndMonsterManager/src/main.cpp",
-			"Mu",
-			null
-		],
-		[
-			"/home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.cpp",
+			"/mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.cpp",
 			"Mu",
 			null
 		]

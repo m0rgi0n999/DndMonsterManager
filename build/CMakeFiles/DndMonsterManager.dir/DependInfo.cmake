@@ -9,10 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "DndMonsterManager_autogen/timestamp" "custom" "DndMonsterManager_autogen/deps"
-  "/home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp" "CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o.d"
-  "/home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.cpp" "CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o" "gcc" "CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o.d"
-  "/home/erwin/source/source/RPG/DndMonsterManager/src/main.cpp" "CMakeFiles/DndMonsterManager.dir/src/main.cpp.o" "gcc" "CMakeFiles/DndMonsterManager.dir/src/main.cpp.o.d"
-  "/home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.cpp" "CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o" "gcc" "CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o.d"
+  "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp" "CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o.d"
+  "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.cpp" "CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o" "gcc" "CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o.d"
+  "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/main.cpp" "CMakeFiles/DndMonsterManager.dir/src/main.cpp.o" "gcc" "CMakeFiles/DndMonsterManager.dir/src/main.cpp.o.d"
+  "/mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.cpp" "CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o" "gcc" "CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o.d"
   "" "DndMonsterManager" "gcc" "CMakeFiles/DndMonsterManager.dir/link.d"
   )
 

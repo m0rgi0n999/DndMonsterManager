@@ -3,18 +3,23 @@
 
 nlohmann::json Monster::to_json() const {
   return nlohmann::json{
-  {"name", name},
+    {"name", name},
 	{"str", strength},
 	{"dex", dexterity},
 	{"con", constitution},
-  {"int", intelligence},
+    {"int", intelligence},
 	{"wis", wisdom},
 	{"cha", charisma},
-  {"hp", hp},
+    {"hp", hp},
 	{"ac", ac},
-  {"passivePerception", passivePerception},
+    {"passivePerception", passivePerception},
 	{"cr", cr},
-	{"abilities", abilities}
+	{"abilities", abilities},
+	{"actions", actions},
+	{"savingThrows", savingThrows},
+	{"skills", skills},
+	{"legendayActions", legendaryActions},
+	{"reactions", reactions}
   };
 }
 
@@ -31,6 +36,11 @@ Monster Monster::from_json(const nlohmann::json& j) {
     j.value("ac", 10),
     j.value("passivePerception", 10), // Safe: if missing, defaults to 10
     j.value("cr", 0.0),               // Safe: if missing, defaults to 0.0
-    j.value("abilities", std::vector<std::string>{}) // Safe: if missing, defaults to empty list
+    j.value("abilities", std::vector<std::string>{}), // Safe: if missing, defaults to empty list
+	j.value("actions", std::vector<std::string>{}),
+	j.value("savingThrows", std::map<std::string, int>{}),
+	j.value("skills", std::map<std::string, int>{}),
+	j.value("legendaryActions", std::vector<std::string>{}),
+	j.value("reactions", std::vector<std::string>{})
   };
 }

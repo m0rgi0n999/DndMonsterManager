@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erwin/source/source/RPG/DndMonsterManager
+CMAKE_SOURCE_DIR = /mnt/e/git/RPG/DnD_5e/DndMonsterManager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erwin/source/source/RPG/DndMonsterManager/build
+CMAKE_BINARY_DIR = /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DndMonsterManager.dir/depend.make
@@ -71,9 +71,9 @@ include CMakeFiles/DndMonsterManager.dir/flags.make
 
 DndMonsterManager_autogen/timestamp: /usr/lib64/qt6/libexec/moc
 DndMonsterManager_autogen/timestamp: CMakeFiles/DndMonsterManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target DndMonsterManager"
-	/usr/bin/cmake -E cmake_autogen /home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles/DndMonsterManager_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target DndMonsterManager"
+	/usr/bin/cmake -E cmake_autogen /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/DndMonsterManager_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/timestamp
 
 CMakeFiles/DndMonsterManager.dir/codegen:
 .PHONY : CMakeFiles/DndMonsterManager.dir/codegen
@@ -81,58 +81,58 @@ CMakeFiles/DndMonsterManager.dir/codegen:
 CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o: CMakeFiles/DndMonsterManager.dir/flags.make
 CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o: DndMonsterManager_autogen/mocs_compilation.cpp
 CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o: CMakeFiles/DndMonsterManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o -MF CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o -c /home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o -MF CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.o -c /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp
 
 CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp > CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp > CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erwin/source/source/RPG/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp -o CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/DndMonsterManager_autogen/mocs_compilation.cpp -o CMakeFiles/DndMonsterManager.dir/DndMonsterManager_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/DndMonsterManager.dir/src/main.cpp.o: CMakeFiles/DndMonsterManager.dir/flags.make
-CMakeFiles/DndMonsterManager.dir/src/main.cpp.o: /home/erwin/source/source/RPG/DndMonsterManager/src/main.cpp
+CMakeFiles/DndMonsterManager.dir/src/main.cpp.o: /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/main.cpp
 CMakeFiles/DndMonsterManager.dir/src/main.cpp.o: CMakeFiles/DndMonsterManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DndMonsterManager.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DndMonsterManager.dir/src/main.cpp.o -MF CMakeFiles/DndMonsterManager.dir/src/main.cpp.o.d -o CMakeFiles/DndMonsterManager.dir/src/main.cpp.o -c /home/erwin/source/source/RPG/DndMonsterManager/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DndMonsterManager.dir/src/main.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DndMonsterManager.dir/src/main.cpp.o -MF CMakeFiles/DndMonsterManager.dir/src/main.cpp.o.d -o CMakeFiles/DndMonsterManager.dir/src/main.cpp.o -c /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/main.cpp
 
 CMakeFiles/DndMonsterManager.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DndMonsterManager.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erwin/source/source/RPG/DndMonsterManager/src/main.cpp > CMakeFiles/DndMonsterManager.dir/src/main.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/main.cpp > CMakeFiles/DndMonsterManager.dir/src/main.cpp.i
 
 CMakeFiles/DndMonsterManager.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DndMonsterManager.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erwin/source/source/RPG/DndMonsterManager/src/main.cpp -o CMakeFiles/DndMonsterManager.dir/src/main.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/main.cpp -o CMakeFiles/DndMonsterManager.dir/src/main.cpp.s
 
 CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o: CMakeFiles/DndMonsterManager.dir/flags.make
-CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o: /home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.cpp
+CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o: /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.cpp
 CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o: CMakeFiles/DndMonsterManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o -MF CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o.d -o CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o -c /home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o -MF CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o.d -o CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.o -c /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.cpp
 
 CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.cpp > CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.cpp > CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.i
 
 CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erwin/source/source/RPG/DndMonsterManager/src/model/Monster.cpp -o CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/model/Monster.cpp -o CMakeFiles/DndMonsterManager.dir/src/model/Monster.cpp.s
 
 CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: CMakeFiles/DndMonsterManager.dir/flags.make
-CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: /home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.cpp
+CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.cpp
 CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o: CMakeFiles/DndMonsterManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o -MF CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o.d -o CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o -c /home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o -MF CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o.d -o CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.o -c /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.cpp
 
 CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.cpp > CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.cpp > CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.i
 
 CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erwin/source/source/RPG/DndMonsterManager/src/gui/MainWindow.cpp -o CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/git/RPG/DnD_5e/DndMonsterManager/src/gui/MainWindow.cpp -o CMakeFiles/DndMonsterManager.dir/src/gui/MainWindow.cpp.s
 
 # Object files for target DndMonsterManager
 DndMonsterManager_OBJECTS = \
@@ -156,7 +156,7 @@ DndMonsterManager: /usr/lib64/libGLX.so
 DndMonsterManager: /usr/lib64/libOpenGL.so
 DndMonsterManager: /usr/lib64/libQt6Core.so.6.10.3
 DndMonsterManager: CMakeFiles/DndMonsterManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DndMonsterManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DndMonsterManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DndMonsterManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/DndMonsterManager.dir/clean:
 .PHONY : CMakeFiles/DndMonsterManager.dir/clean
 
 CMakeFiles/DndMonsterManager.dir/depend: DndMonsterManager_autogen/timestamp
-	cd /home/erwin/source/source/RPG/DndMonsterManager/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erwin/source/source/RPG/DndMonsterManager /home/erwin/source/source/RPG/DndMonsterManager /home/erwin/source/source/RPG/DndMonsterManager/build /home/erwin/source/source/RPG/DndMonsterManager/build /home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles/DndMonsterManager.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/git/RPG/DnD_5e/DndMonsterManager /mnt/e/git/RPG/DnD_5e/DndMonsterManager /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/DndMonsterManager.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/DndMonsterManager.dir/depend
 

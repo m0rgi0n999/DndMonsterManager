@@ -1,6 +1,17 @@
 {
-    "abilities": [],
+    "abilities": [
+        "Truesight 120 ft.",
+        "Angelic Weapons",
+        "Divine Awareness",
+        "Innate Spellcasting",
+        "Magic Resistance"
+    ],
     "ac": 19,
+    "actions": [
+        "Multiattack",
+        "Greatsword",
+        "Healing Touch (4/Day)"
+    ],
     "cha": 25,
     "con": 24,
     "cr": 16.0,
@@ -9,6 +20,14 @@
     "int": 19,
     "name": "Planetar",
     "passivePerception": 21,
+    "savingThrows": {
+        "Cha": 12,
+        "Con": 12,
+        "Wis": 11
+    },
+    "skills": {
+        "Perception": 11
+    },
     "str": 24,
     "wis": 22
 }

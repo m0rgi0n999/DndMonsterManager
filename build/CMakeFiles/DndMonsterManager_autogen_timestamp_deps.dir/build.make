@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erwin/source/source/RPG/DndMonsterManager
+CMAKE_SOURCE_DIR = /mnt/e/git/RPG/DnD_5e/DndMonsterManager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erwin/source/source/RPG/DndMonsterManager/build
+CMAKE_BINARY_DIR = /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build
 
 # Utility rule file for DndMonsterManager_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/DndMonsterManager_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/DndMonsterManager_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/DndMonsterManager_autogen_timestamp_deps.dir/depend:
-	cd /home/erwin/source/source/RPG/DndMonsterManager/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erwin/source/source/RPG/DndMonsterManager /home/erwin/source/source/RPG/DndMonsterManager /home/erwin/source/source/RPG/DndMonsterManager/build /home/erwin/source/source/RPG/DndMonsterManager/build /home/erwin/source/source/RPG/DndMonsterManager/build/CMakeFiles/DndMonsterManager_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/git/RPG/DnD_5e/DndMonsterManager /mnt/e/git/RPG/DnD_5e/DndMonsterManager /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build /mnt/e/git/RPG/DnD_5e/DndMonsterManager/build/CMakeFiles/DndMonsterManager_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/DndMonsterManager_autogen_timestamp_deps.dir/depend
 
