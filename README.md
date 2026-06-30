@@ -1,5 +1,3 @@
----
-
 # DndMonsterManager
 
 **A comprehensive Dungeons & Dragons 5e Monster Management desktop application**
